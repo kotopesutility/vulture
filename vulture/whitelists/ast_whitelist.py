@@ -1,4 +1,4 @@
-from whitelist_utils import Whitelist
+from vulture.whitelist_utils import Whitelist
 
 # NodeVisitor methods are called implicitly.
 whitelist_node_visitor = Whitelist()
